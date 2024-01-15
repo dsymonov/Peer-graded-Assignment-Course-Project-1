@@ -1,31 +1,40 @@
-This assignment uses data from the 
-UC Irvine Machine Learning Repository
-, a popular repository for machine learning datasets. In particular, we will be using the “Individual household electric power consumption Data Set” which I have made available on the course web site:
+# Peer-Graded-Assignment-Course-Project-1
 
-Dataset: 
-Electric power consumption
- [20Mb]
+The variables included in this dataset are:
 
-Description: Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
+steps: Number of steps taking in a 5-minute interval (missing values are coded as NA NA)
 
-The following descriptions of the 9 variables in the dataset are taken from the 
-UCI web site
-:
+date: The date on which the measurement was taken in YYYY-MM-DD format
 
-Date: Date in format dd/mm/yyyy
+interval: Identifier for the 5-minute interval in which measurement was taken
 
-Time: time in format hh:mm:ss
+The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.
+Repo
 
-Global_active_power: household global minute-averaged active power (in kilowatt)
+Valid GitHub URL 
 
-Global_reactive_power: household global minute-averaged reactive power (in kilowatt)
+At least one commit beyond the original fork
 
-Voltage: minute-averaged voltage (in volt)
+Valid SHA-1
 
-Global_intensity: household global minute-averaged current intensity (in ampere)
+SHA-1 corresponds to a specific commit
 
-Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
+Commit containing full submission
 
-Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
+Code for reading in the dataset and/or processing the data
 
-Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
+Histogram of the total number of steps taken each day
+
+Mean and median number of steps taken each day
+
+Time series plot of the average number of steps taken
+
+The 5-minute interval that, on average, contains the maximum number of steps
+
+Code to describe and show a strategy for imputing missing data
+
+Histogram of the total number of steps taken each day after missing values are imputed
+
+Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
+
+All of the R code needed to reproduce the results (numbers, plots, etc.) in the report
